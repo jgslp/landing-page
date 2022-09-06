@@ -5,6 +5,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .right-header {
@@ -14,4 +15,9 @@ header {
 ul {
     display: flex;
     list-style-type: none;
+}
+
+header, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
