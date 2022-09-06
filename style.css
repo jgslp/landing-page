@@ -57,3 +57,7 @@ button {
     background-color: #3882f6;
     color: #F9FAf8;
 }
+
+.boxes {
+    display: flex;
+}
