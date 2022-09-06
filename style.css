@@ -35,3 +35,15 @@ footer {
 .awesome {
     display: flex;
 }
+
+.awesome-left {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAf8;
+}
+
+#subtext {
+    font-size: 18px;
+    color: E5E7Eb;
+    font-weight:lighter;
+}
