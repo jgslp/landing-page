@@ -29,7 +29,7 @@ ul {
     gap: 12px;
 }
 
-header, footer, .awesome {
+header, footer, .container {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -44,20 +44,21 @@ footer {
     align-items: center;
 }
 
-.awesome {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.awesome-left {
+.container-left {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAf8;
     padding-left: 100px;
 }
 
-.awesome-right {
+.container-right {
     padding-right: 100px;
 }
 
