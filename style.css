@@ -66,20 +66,18 @@ button {
     flex-wrap: wrap;
 }
 
-.random {
-    padding: 50px 150px;
-    justify-content: center;
-}
-
 .boxes {
     display: flex;
-    width: 100px;
+    justify-content: center;
+    gap: 12px;
 }
 
+#box-text {
+    width: 120px;
+}
 .quote {
     background-color: #E5E7EB;
-    justify-content: center;
-    padding: 50px 150px;
+    padding: 50px 200px;
 }
 
 #italic {
@@ -98,4 +96,3 @@ button {
 #rounded {
     border-radius: 10%;
 }
-
