@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', 'Helvetica Neue';
 }
 
+/* Header */
 header {
     position: sticky;
     top: 0;
@@ -29,11 +30,12 @@ ul {
     gap: 12px;
 }
 
-header, footer, .container {
+header, footer, .hero {
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
+/* Footer */
 footer {
     position: fixed;
     bottom: 0;
@@ -44,28 +46,23 @@ footer {
     align-items: center;
 }
 
-.container {
+/* Hero */
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.container-left {
+.hero-left {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAf8;
     padding-left: 100px;
 }
 
-.container-right {
+.hero-right {
     padding-right: 100px;
-}
-
-#subtext {
-    font-size: 18px;
-    color: E5E7Eb;
-    font-weight:lighter;
 }
 
 button {
@@ -73,6 +70,13 @@ button {
     color: #F9FAf8;
     padding: 10px 30px;
     border-radius: 10%;
+}
+
+/* Random Information Section */
+#subtext {
+    font-size: 18px;
+    color: E5E7Eb;
+    font-weight:lighter;
 }
 
 .random-text {
@@ -99,6 +103,12 @@ button {
 #box-text {
     width: 120px;
 }
+
+#rounded {
+    border-radius: 10%;
+}
+
+/* Quote */
 .quote {
     background-color: #E5E7EB;
     padding: 50px 200px;
@@ -117,6 +127,4 @@ button {
     font-weight: bolder;
 }
 
-#rounded {
-    border-radius: 10%;
-}
+
