@@ -54,6 +54,11 @@ footer {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAf8;
+    padding-left: 100px;
+}
+
+.awesome-right {
+    padding-right: 100px;
 }
 
 #subtext {
