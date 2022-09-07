@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, 'Helvetica Neue'
+    font-family: Roboto, 'Helvetica Neue';
 }
 
 header {
@@ -9,7 +9,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;   
 }
 
 .right-header {
@@ -66,6 +66,8 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    justify-content: center;
+    padding: 50px 150px;
 }
 
 #italic {
