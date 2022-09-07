@@ -92,6 +92,7 @@ button {
 #source {
     display: flex;
     justify-content: flex-end;
+    font-weight: bolder;
 }
 
 #rounded {
