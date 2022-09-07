@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, 'Helvetica Neue';
+    font-family: 'Roboto', 'Helvetica Neue';
 }
 
 header {
@@ -71,6 +71,8 @@ footer {
 button {
     background-color: #3882f6;
     color: #F9FAf8;
+    padding: 10px 30px;
+    border-radius: 10%;
 }
 
 .random-text {
