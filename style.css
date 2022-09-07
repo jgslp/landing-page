@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, 'Helvetica Neue'
 }
+
 header {
     position: sticky;
     top: 0;
@@ -60,6 +61,7 @@ button {
 
 .boxes {
     display: flex;
+    width: 100px;
 }
 
 .quote {
@@ -75,4 +77,11 @@ button {
 
 #rounded {
     border-radius: 10%;
+}
+
+.box {
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+    flex-wrap: wrap;
 }
